@@ -6,7 +6,9 @@
             "Day": 1,
             "End Year": 996,
             "End Month": 10,
-            "End Day": 24
+            "End Day": 24,
+            "Event Name": "Hugues Capet Reign",
+            "Description": "First king of the Capetian Dynasty"
         },
         {
             "Year": 996,
@@ -14,7 +16,9 @@
             "Day": 24,
             "End Year": 1031,
             "End Month": 10,
-            "End Day": 20
+            "End Day": 20,
+            "Event Name": "Robert II \"the Pious\"",
+            "Description": "Second king of the House of Capet, part of the Capetian Dynasty."
         },
         {
             "Year": 1322,
@@ -22,7 +26,9 @@
             "Day": 3,
             "End Year": 1328,
             "End Month": 2,
-            "End Day": 1
+            "End Day": 1,
+            "Event Name": "Charles IV \"the Fair\"",
+            "Description": "Last king of the Capetian Dynasty. Without a male heir, his death caused the Hundred Years' War. "
         },
         {
             "Year": 1137,
@@ -30,7 +36,9 @@
             "Day": 1,
             "End Year": 1180,
             "End Month": 9,
-            "End Day": 18
+            "End Day": 18,
+            "Event Name": "Louis VII \"the Young\"",
+            "Description": ""
         },
         {
             "Year": 1108,
@@ -38,7 +46,9 @@
             "Day": 29,
             "End Year": 1137,
             "End Month": 8,
-            "End Day": 1
+            "End Day": 1,
+            "Event Name": "Lous VI \"the Fat\"",
+            "Description": ""
         }
     ]
 }

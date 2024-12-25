@@ -12,9 +12,8 @@ def make_json (csvFilePath, jsonFilePath):
       for key, value in rows.items():
         if value.isnumeric():
           value =int(value)
-          rowData[key] = value
+        rowData[key] = value
       jsonData['data'].append(rowData)
-  print(jsonData)
 
   with open(jsonFilePath, mode='w') as jsonFile:
     jsonFile.write(json.dumps(jsonData, indent=4))
