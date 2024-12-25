@@ -398,3 +398,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# OSX
+.DS_Store
+
+# node.js
+npm-debug.log
+yarn-error.log
