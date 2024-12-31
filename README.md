@@ -8,7 +8,7 @@ React, Vercel, uv, D3.js
 
 ## Setup
 
-1. Download ['uv'](https://github.com/astral-sh/uv) to create virtural environment.
+1. Download [uv](https://github.com/astral-sh/uv) to create virtural environment.
 
 2. Download npm 
 
@@ -16,10 +16,4 @@ React, Vercel, uv, D3.js
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
