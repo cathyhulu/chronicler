@@ -12,7 +12,11 @@ const query = gql`query {
 }`
 
 export default function Home() {
-  const {data} = useSuspenseQuery(query);
+  try {
+    const {data} = useSuspenseQuery(query);
+  } catch (err) {
+    console.log(err);
+  }
   return (
     <div>
       <main className="flex flex-col gap-8 items-center">
