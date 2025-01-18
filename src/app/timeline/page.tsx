@@ -1,6 +1,7 @@
 
 import TimelineChart from "@/components/Timeline/Chart/Chart";
 import TimelineSidebar from "@/components/Timeline/Sidebar/Sidebar";
+
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
