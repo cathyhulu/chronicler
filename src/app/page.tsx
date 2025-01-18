@@ -1,7 +1,6 @@
 'use client';
 export const dynamic = "force-dynamic";
 
-
 import TimelineSidebar from "@/components/Timeline/Sidebar/Sidebar";
 
 import { useSuspenseQuery, gql } from "@apollo/client";
@@ -14,7 +13,6 @@ const query = gql`query {
 
 export default function Home() {
   const {data} = useSuspenseQuery(query);
-  console.log(data);
   return (
     <div>
       <main className="flex flex-col gap-8 items-center">
